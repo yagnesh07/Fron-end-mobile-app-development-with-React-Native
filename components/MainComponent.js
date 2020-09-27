@@ -7,9 +7,9 @@ import About from './AboutComponent';
 import { View, Platform, ScrollView, Text, StyleSheet, Image } from 'react-native';
 import { createStackNavigator, createDrawerNavigator, SafeAreaView, DrawerItems } from 'react-navigation';
 import { Icon } from 'react-native-elements';
-
 import { connect } from 'react-redux';
 import { fetchDishes, fetchComments, fetchPromos, fetchLeaders } from '../redux/ActionCreators';
+
 
 const mapStateToProps = state => {
   return {
